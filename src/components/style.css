@@ -1,0 +1,54 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small;
+}
+
+button {
+  cursor: pointer;
+  border: 1px solid #000000;
+  padding: 8px;
+  min-width: 64px;
+  border-radius: 20px;
+  font-size: medium;
+  font-weight: bold;
+  color: #000000;
+  background: rgb(186, 238, 175);
+  transition: all 0.1s ease-in;
+}
+
+button:hover {
+  background: rgb(148, 224, 129);
+}
+
+.input {
+  min-width: 260px;
+  padding: 8px;
+  margin-right: 10px;
+  font-size: medium;
+}
+
+ul {
+  display: table;
+  margin: 20px auto;
+}
+
+ul li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 3px;
+}
+
+li img {
+  margin-right: 5px;
+}
+
+li span {
+  font-weight: bold;
+}
+
+h3 {
+  padding-right: 260px;
+  margin-top: 20px auto;
+}
